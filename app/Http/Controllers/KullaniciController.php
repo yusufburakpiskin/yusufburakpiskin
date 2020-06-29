@@ -18,6 +18,7 @@ class KullaniciController extends Controller
         $user->adi = request('adi');
         $user->email =request('email');
         $user->password =bcrypt(request('password'));
+        $table->string('remember_token')->nullable();
         $user->yetki = "2";
       
         $user->save();
