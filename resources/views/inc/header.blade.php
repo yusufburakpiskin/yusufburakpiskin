@@ -1,7 +1,7 @@
 
 <body>
 	<div class="wrapper">
-		<!-- HEADER -->
+		<!-- HEADER yorum -->
 		<header>
 			<div class="container">
 				<!-- Logo -->
