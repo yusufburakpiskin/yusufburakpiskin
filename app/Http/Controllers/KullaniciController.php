@@ -24,7 +24,7 @@ class KullaniciController extends Controller
         $user->save();
 
         // auth()->login($user);
-        return redirect()->intended(route('home'));
+        return redirect()->intended(route('login.show'));
           
     }
 
