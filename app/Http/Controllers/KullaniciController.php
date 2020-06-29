@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Http\Request;
-
 use App\User;
 class KullaniciController extends Controller
 {
@@ -21,7 +20,7 @@ class KullaniciController extends Controller
         $user->password =bcrypt(request('password'));
         
         $user->yetki = "2";
-        
+        $user->string('remember_token')->NULL;
         $user->save();
 
         // auth()->login($user);
