@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
         $password = bcrypt('test');
 
         $users = [
-            ['adi' => 'test', 'password' => $password, 'email' => 'test@test.com', 'yetki'=>'1', 'remember_token'=>null],
+            ['adi' => 'test', 'password' => $password, 'email' => 'test@test.com', 'yetki'=>'1', 'remember_token'=>''],
         ];
 //upp
         DB::table('kullanicilar')->insert($users);
