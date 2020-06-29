@@ -42,7 +42,7 @@ setTimeout(carousel, 5000); // Change image every 5 seconds
              <b> {{$duyuru->baslik}}</b>
             </h2>
             <h3 class="post-subtitle">
-             {{$duyuru->yazi}}
+             {{str_limit($duyuru->yazi,50)}}
             </h3>
           </a>
           <p class="post-meta">
