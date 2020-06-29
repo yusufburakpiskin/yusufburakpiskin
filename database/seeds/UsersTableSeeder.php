@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
         $users = [
             ['adi' => 'test', 'password' => $password, 'email' => 'test@test.com', 'yetki'=>'1'],
         ];
-
+//upp
         DB::table('kullanicilar')->insert($users);
 
     }
