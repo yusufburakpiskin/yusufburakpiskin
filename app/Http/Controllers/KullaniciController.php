@@ -21,7 +21,7 @@ class KullaniciController extends Controller
         $user->password =bcrypt(request('password'));
         
         $user->yetki = "2";
-        $user->string('remember_token');
+        
         $user->save();
 
         // auth()->login($user);
