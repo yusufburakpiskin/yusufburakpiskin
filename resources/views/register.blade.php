@@ -72,7 +72,8 @@
             </div>
         </div>
     </div>
-    <!-- login area end -->
+    
+    <!--f login area end -->
 
     <!-- jquery latest version -->
     <script src="{{ asset('admin-temp') }}/assets/js/vendor/jquery-2.2.4.min.js"></script>
