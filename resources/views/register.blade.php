@@ -40,8 +40,8 @@
                 <form method="POST" action="{{route('kayit-et')}}">
                 {{ csrf_field() }}
                     <div class="login-form-head">
-                        <h4>Sign up</h4>
-                        <p>Hello there, Sign up and Join with Us</p>
+                        <h4>Kayıt Ol</h4>
+                       
                     </div>
                     <div class="login-form-body">
 
@@ -61,11 +61,11 @@
                     </tr>
                     </table>
                         <div class="submit-btn-area">
-                            <button id="form_submit" type="submit">Submit <i class="ti-arrow-right"></i></button>
+                            <button id="form_submit" type="submit">Kayıt Et <i class="ti-arrow-right"></i></button>
                           
                         </div>
                         <div class="form-footer text-center mt-5">
-                            <p class="text-muted">Don't have an account? <a href="{{route('login.show')}}">Giriş Yap </a></p>
+                            <p class="text-muted">Giriş Yap <a href="{{route('login.show')}}">Giriş Yap </a></p>
                         </div>
                     </div>
                 </form>
